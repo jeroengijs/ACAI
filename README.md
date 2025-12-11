@@ -123,7 +123,7 @@ Open `process_single_patient.m` (in the appropriate pipeline folder) and edit th
   * Options: `'Gaussian'`, `'Cubic'`, `'Sphere'`
   * Normal option: Gaussian
 * `kernel_size`: The dimensions of the kernel
-  * Gaussian: 9 mm FWHM is the standard
+  * Gaussian: **9 mm FWHM is the standard, used in the paper**
   * Cubic: Side length
   * Sphere: Diameter
 
@@ -191,9 +191,8 @@ If you use this code, please cite:
 ## Contact
 
 For questions or issues, please contact the authors.
-
----
+jeroen.gijs@uzleuven.be
 
 ## License
 
-[Add license information here] 
+MIT license
