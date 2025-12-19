@@ -14,19 +14,19 @@ clear; clc;
 
 % --- 0. CONFIGURATION ---
 % Full path to the original T1 NIfTI file.
-t1_image_file = '';
+t1_image_file = 'E:\studie_lieselotte\Clean_dir\20\sub-020_acq-1_3DT1w.nii';
 
 % Full path to the FDG-PET NIfTI file (must be coregistered to the T1)
-pet_image_file = '';
+pet_image_file = 'E:\studie_lieselotte\Clean_dir\20\coreg_to_T1\sub-020_acq-1_desc-LMduetto_pet_toT1_affine_sm45.nii';
 
 % Paths to required toolboxes and scripts
 % Ensure this points to the SPM12 folder containing the 'tpm' and 'toolbox/cat12' subfolders
 % for example C:\MATLAB\R2023b\toolbox\spm12
-spm_path = ''; 
+spm_path = 'C:\MATLAB\R2023b\toolbox\spm12'; 
 
 % Path to the directory containing 'LCN12_calc_ACAI_GACAI_preprocessed.m'
 % eg the directory of this script
-acai_script_path = '';
+acai_script_path = 'C:\Users\jgijs0\OneDrive - KU Leuven (1)\lopende studies\ACAI study\github_script\cat12_ACAI';
 
 % ACAI Kernel settings
 kernel_type = 'Gaussian'; % 'Gaussian', 'Cubic', 'Sphere'

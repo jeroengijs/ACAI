@@ -324,8 +324,8 @@ matlabbatch{1}.spm.spatial.normalise.write.subj.def = cellstr(deformationfield_i
 matlabbatch{1}.spm.spatial.normalise.write.subj.resample = filelist;
 matlabbatch{1}.spm.spatial.normalise.write.woptions.bb = [-Inf -Inf -Inf
                                                           Inf Inf Inf];
-matlabbatch{1}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
-matlabbatch{1}.spm.spatial.normalise.write.woptions.interp = 4;
+matlabbatch{1}.spm.spatial.normalise.write.woptions.vox = [NaN NaN NaN];
+matlabbatch{1}.spm.spatial.normalise.write.woptions.interp = 1;
 spm_jobman('serial', matlabbatch);
 
 % STEP 6: clean up directory

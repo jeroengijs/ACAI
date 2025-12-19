@@ -325,7 +325,7 @@ vox_native = abs(diag(Vpet_native_header.mat(1:3,1:3)))';
 
 matlabbatch{1}.spm.spatial.normalise.write.woptions.bb = [-Inf -Inf -Inf
                                                           Inf Inf Inf];
-matlabbatch{1}.spm.spatial.normalise.write.woptions.vox = [2 2 2];
+matlabbatch{1}.spm.spatial.normalise.write.woptions.vox = [NaN NaN NaN];
 matlabbatch{1}.spm.spatial.normalise.write.woptions.interp = 1;
 matlabbatch{1}.spm.spatial.normalise.write.woptions.prefix = 'w_native_'; 
 
